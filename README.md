@@ -7,7 +7,7 @@ Followed by my blog writing about how to create linux profile for volatility (ht
 Easy to use,  run the script with sudo permission and respective kernel profile will be created under volatility linux profile.
 
 Sample Screenshot:
-https://github.com/sivasundaram18/Auto-LiME/blob/master/Sample%20Screenshot.jpeg
+![Screenshot](https://github.com/sivasundaram18/Auto-LiME/blob/master/Sample%20Screenshot.jpeg)
 
 
 
