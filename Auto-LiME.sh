@@ -19,15 +19,15 @@ echo -e "\e[92m /_/    \_\__,_|\__\___/      |______|_|_|  |_|______|	 "
 echo -e "\e[97m"
 #	Install and Update all necessary dependencies
 printf "\n\n*Installtion of dependencies in progress..."
-sudo apt-get update > /dev/null 2>&1
-sudo apt-get install build-essential > /dev/null 2>&1
-sudo apt-get install linux-headers-`uname -r` > /dev/null 2>&1
-sudo apt-get install dwarfdump > /dev/null 2>&1
-sudo apt-get install git zip libelf-dev python > /dev/null 2>&1
-sudo apt-get install yara > /dev/null 2>&1
-sudo apt-get install python-pip > /dev/null 2>&1
-sudo -H pip install --upgrade pip > /dev/null 2>&1
-sudo -H pip install distorm3 pycrypto openpyxl Pil > /dev/null 2>&1
+sudo apt-get update -y > /dev/null 2>&1
+sudo apt-get install build-essential -y > /dev/null 2>&1
+sudo apt-get install linux-headers-`uname -r` -y > /dev/null 2>&1
+sudo apt-get install dwarfdump -y > /dev/null 2>&1
+sudo apt-get install git zip libelf-dev python -y > /dev/null 2>&1
+sudo apt-get install yara -y > /dev/null 2>&1
+sudo apt-get install python-pip -y > /dev/null 2>&1
+sudo -H pip install --upgrade pip -y > /dev/null 2>&1
+sudo -H pip install distorm3 pycrypto openpyxl Pil -y > /dev/null 2>&1
 printf "completed."
 
 printf "\n*Downloading LiME and making kernel object..."
